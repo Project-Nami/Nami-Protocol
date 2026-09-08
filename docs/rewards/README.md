@@ -36,7 +36,7 @@ Fees and bribes are pooled in one ledger per epoch, pool and token. After the ep
 
 ## Rebase
 
-The rebase is the d(3,3) anti-dilution payment. Each week a keeper routes the rebase category through the emissions receiver into `RewardsDistributor`. Each lock's share is its voting power over total voting power at the end of the epoch, and only permanent locks can claim theirs. A normal lock accrues a pending balance for information only and cannot claim it until it converts to an iNFT, at which point the whole history becomes claimable. A claim is deposited back into the same lock rather than paid out. The one exception is a lock that has been bridged away, whose remaining rebase stays claimable by its last owner.
+The rebase is the d(3,3) voting power preservation payment. Each week a keeper routes the rebase category through the emissions receiver into `RewardsDistributor`. Each lock's share is its voting power over total voting power at the end of the epoch, and only permanent locks can claim theirs. A normal lock accrues a pending balance for information only and cannot claim it until it converts to an iNFT, at which point the whole history becomes claimable. A claim is deposited back into the same lock rather than paid out. The one exception is a lock that has been bridged away, whose remaining rebase stays claimable by its last owner.
 
 ## Claiming and auto-lock
 
