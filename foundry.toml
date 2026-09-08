@@ -21,6 +21,6 @@ sort_imports = true
 int_types = "long"
 wrap_comments = true
 
-# Lint the contracts only. No separator after test, so the pattern matches on Windows too.
+# Lint the contracts only.
 [lint]
-ignore = ["test**"]
+ignore = ["test/**/*"]
