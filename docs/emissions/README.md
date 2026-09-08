@@ -15,7 +15,7 @@ Every week the hub mints new NAMI and the protocol sends it where the votes said
 
 The Minter runs once per epoch, on a permissionless call that does nothing until the week has flipped. Each week's emission is the previous week's scaled by a decay factor. The owner sets the first week's amount before epochs start and can retune the factor anywhere from 5% to 200%, so emissions can be made to shrink or grow.
 
-The week is split into three categories. The rates are owner tunable defaults, and gauges always take the remainder.
+The week is split into three categories. The rebase rate is owner tunable defaults, and gauges always take the remainder.
 
 | Category | Default | Goes to |
 |---|---|---|
