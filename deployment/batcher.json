@@ -1,0 +1,354 @@
+{
+  "chains": {
+    "1": {
+      "network": "ethereum",
+      "explorer": "https://etherscan.io",
+      "wrappedNative": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "contracts": {
+        "BatcherAccountProxyFactory": "0x0100000002935Dce071f4AFA607b961575672b4C",
+        "BatcherAccountProxy": "0xA667BCF6BA8eA997397Fa15317C38F8734CE8bFB",
+        "AddressSetRegistry": "0xBFA166c4a28A66921C1832DdbBe6608ADDff8f0D",
+        "SwapFacet": "0xfb98d32fb29e7D7c058197A8Df82A955fb5871B9"
+      },
+      "latestFinalizedVersion": 1,
+      "versions": {
+        "1": {
+          "facets": {
+            "SwapFacet": {
+              "address": "0xfb98d32fb29e7D7c058197A8Df82A955fb5871B9",
+              "functions": [
+                "swap_call((address,address,uint256,address,address,bool,uint256,uint256,bytes))"
+              ]
+            }
+          },
+          "initializer": null
+        }
+      }
+    },
+    "10": {
+      "network": "optimism",
+      "explorer": "https://optimistic.etherscan.io",
+      "wrappedNative": "0x4200000000000000000000000000000000000006",
+      "contracts": {
+        "BatcherAccountProxyFactory": "0x0100000002935Dce071f4AFA607b961575672b4C",
+        "BatcherAccountProxy": "0xA667BCF6BA8eA997397Fa15317C38F8734CE8bFB",
+        "AddressSetRegistry": "0xA10bC53f84F5e359a928cACAed27D3D09DF1ADbD",
+        "SwapFacet": "0xC75fbF81cc29d71589bE9D3c70E6a4eDC41Ac6BC"
+      },
+      "latestFinalizedVersion": 1,
+      "versions": {
+        "1": {
+          "facets": {
+            "SwapFacet": {
+              "address": "0xC75fbF81cc29d71589bE9D3c70E6a4eDC41Ac6BC",
+              "functions": [
+                "swap_call((address,address,uint256,address,address,bool,uint256,uint256,bytes))"
+              ]
+            }
+          },
+          "initializer": null
+        }
+      }
+    },
+    "56": {
+      "network": "bsc",
+      "explorer": "https://bscscan.com",
+      "wrappedNative": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "contracts": {
+        "BatcherAccountProxyFactory": "0x0100000002935Dce071f4AFA607b961575672b4C",
+        "BatcherAccountProxy": "0xA667BCF6BA8eA997397Fa15317C38F8734CE8bFB",
+        "AddressSetRegistry": "0xC75fbF81cc29d71589bE9D3c70E6a4eDC41Ac6BC",
+        "SwapFacet": "0x85596a4a3F6E760E27ff417CbeC6085eA5e5f7a4"
+      },
+      "latestFinalizedVersion": 1,
+      "versions": {
+        "1": {
+          "facets": {
+            "SwapFacet": {
+              "address": "0x85596a4a3F6E760E27ff417CbeC6085eA5e5f7a4",
+              "functions": [
+                "swap_call((address,address,uint256,address,address,bool,uint256,uint256,bytes))"
+              ]
+            }
+          },
+          "initializer": null
+        }
+      }
+    },
+    "130": {
+      "network": "unichain",
+      "explorer": "https://uniscan.xyz",
+      "wrappedNative": "0x4200000000000000000000000000000000000006",
+      "contracts": {
+        "BatcherAccountProxyFactory": "0x0100000002935Dce071f4AFA607b961575672b4C",
+        "BatcherAccountProxy": "0xA667BCF6BA8eA997397Fa15317C38F8734CE8bFB",
+        "AddressSetRegistry": "0x8857ED0A3a71F1e1b9c8712756CD72f626663747",
+        "SwapFacet": "0xDeDB80903df19f9dB9b393eb66E07511CB9ABdA2"
+      },
+      "latestFinalizedVersion": 1,
+      "versions": {
+        "1": {
+          "facets": {
+            "SwapFacet": {
+              "address": "0xDeDB80903df19f9dB9b393eb66E07511CB9ABdA2",
+              "functions": [
+                "swap_call((address,address,uint256,address,address,bool,uint256,uint256,bytes))"
+              ]
+            }
+          },
+          "initializer": null
+        }
+      }
+    },
+    "137": {
+      "network": "polygon",
+      "explorer": "https://polygonscan.com",
+      "wrappedNative": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+      "contracts": {
+        "BatcherAccountProxyFactory": "0x0100000002935Dce071f4AFA607b961575672b4C",
+        "BatcherAccountProxy": "0xA667BCF6BA8eA997397Fa15317C38F8734CE8bFB",
+        "AddressSetRegistry": "0xA10bC53f84F5e359a928cACAed27D3D09DF1ADbD",
+        "SwapFacet": "0xC75fbF81cc29d71589bE9D3c70E6a4eDC41Ac6BC"
+      },
+      "latestFinalizedVersion": 1,
+      "versions": {
+        "1": {
+          "facets": {
+            "SwapFacet": {
+              "address": "0xC75fbF81cc29d71589bE9D3c70E6a4eDC41Ac6BC",
+              "functions": [
+                "swap_call((address,address,uint256,address,address,bool,uint256,uint256,bytes))"
+              ]
+            }
+          },
+          "initializer": null
+        }
+      }
+    },
+    "143": {
+      "network": "monad",
+      "explorer": "https://monadscan.com",
+      "wrappedNative": "0x3bd359C1119dA7Da1D913D1C4D2B7c461115433A",
+      "contracts": {
+        "BatcherAccountProxyFactory": "0x0100000002935Dce071f4AFA607b961575672b4C",
+        "BatcherAccountProxy": "0xA667BCF6BA8eA997397Fa15317C38F8734CE8bFB",
+        "AddressSetRegistry": "0x8857ED0A3a71F1e1b9c8712756CD72f626663747",
+        "SwapFacet": "0xDeDB80903df19f9dB9b393eb66E07511CB9ABdA2"
+      },
+      "latestFinalizedVersion": 1,
+      "versions": {
+        "1": {
+          "facets": {
+            "SwapFacet": {
+              "address": "0xDeDB80903df19f9dB9b393eb66E07511CB9ABdA2",
+              "functions": [
+                "swap_call((address,address,uint256,address,address,bool,uint256,uint256,bytes))"
+              ]
+            }
+          },
+          "initializer": null
+        }
+      }
+    },
+    "146": {
+      "network": "sonic",
+      "explorer": "https://sonicscan.org",
+      "wrappedNative": "0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38",
+      "contracts": {
+        "BatcherAccountProxyFactory": "0x0100000002935Dce071f4AFA607b961575672b4C",
+        "BatcherAccountProxy": "0xA667BCF6BA8eA997397Fa15317C38F8734CE8bFB",
+        "AddressSetRegistry": "0xFDfB42Ea2eee740Fd6Fb77F41842e08BD7E2993b",
+        "SwapFacet": "0xA10bC53f84F5e359a928cACAed27D3D09DF1ADbD"
+      },
+      "latestFinalizedVersion": 1,
+      "versions": {
+        "1": {
+          "facets": {
+            "SwapFacet": {
+              "address": "0xA10bC53f84F5e359a928cACAed27D3D09DF1ADbD",
+              "functions": [
+                "swap_call((address,address,uint256,address,address,bool,uint256,uint256,bytes))"
+              ]
+            }
+          },
+          "initializer": null
+        }
+      }
+    },
+    "999": {
+      "network": "hyperevm",
+      "explorer": "https://hyperevmscan.io",
+      "wrappedNative": "0x5555555555555555555555555555555555555555",
+      "contracts": {
+        "BatcherAccountProxyFactory": "0x0100000002935Dce071f4AFA607b961575672b4C",
+        "BatcherAccountProxy": "0xA667BCF6BA8eA997397Fa15317C38F8734CE8bFB",
+        "AddressSetRegistry": "0xA10bC53f84F5e359a928cACAed27D3D09DF1ADbD",
+        "SwapFacet": "0xC75fbF81cc29d71589bE9D3c70E6a4eDC41Ac6BC"
+      },
+      "latestFinalizedVersion": 1,
+      "versions": {
+        "1": {
+          "facets": {
+            "SwapFacet": {
+              "address": "0xC75fbF81cc29d71589bE9D3c70E6a4eDC41Ac6BC",
+              "functions": [
+                "swap_call((address,address,uint256,address,address,bool,uint256,uint256,bytes))"
+              ]
+            }
+          },
+          "initializer": null
+        }
+      }
+    },
+    "4326": {
+      "network": "megaeth",
+      "explorer": "https://mega.etherscan.io",
+      "wrappedNative": "0x4200000000000000000000000000000000000006",
+      "contracts": {
+        "BatcherAccountProxyFactory": "0x0100000002935Dce071f4AFA607b961575672b4C",
+        "BatcherAccountProxy": "0xA667BCF6BA8eA997397Fa15317C38F8734CE8bFB",
+        "AddressSetRegistry": "0xC75fbF81cc29d71589bE9D3c70E6a4eDC41Ac6BC",
+        "SwapFacet": "0x85596a4a3F6E760E27ff417CbeC6085eA5e5f7a4"
+      },
+      "latestFinalizedVersion": 1,
+      "versions": {
+        "1": {
+          "facets": {
+            "SwapFacet": {
+              "address": "0x85596a4a3F6E760E27ff417CbeC6085eA5e5f7a4",
+              "functions": [
+                "swap_call((address,address,uint256,address,address,bool,uint256,uint256,bytes))"
+              ]
+            }
+          },
+          "initializer": null
+        }
+      }
+    },
+    "4663": {
+      "network": "robinhood",
+      "explorer": "https://robinhoodchain.blockscout.com",
+      "wrappedNative": "0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73",
+      "contracts": {
+        "BatcherAccountProxyFactory": "0x0100000002935Dce071f4AFA607b961575672b4C",
+        "BatcherAccountProxy": "0xA667BCF6BA8eA997397Fa15317C38F8734CE8bFB",
+        "AddressSetRegistry": "0xc76DEa09366FA7724D3Dc20aB8fC2253851a2aFa",
+        "SwapFacet": "0x3e1e1E8056dcBDe3E4177431Fc4Dc2B29dA00ee2"
+      },
+      "latestFinalizedVersion": 1,
+      "versions": {
+        "1": {
+          "facets": {
+            "SwapFacet": {
+              "address": "0x3e1e1E8056dcBDe3E4177431Fc4Dc2B29dA00ee2",
+              "functions": [
+                "swap_call((address,address,uint256,address,address,bool,uint256,uint256,bytes))"
+              ]
+            }
+          },
+          "initializer": null
+        }
+      }
+    },
+    "8453": {
+      "network": "base",
+      "explorer": "https://basescan.org",
+      "wrappedNative": "0x4200000000000000000000000000000000000006",
+      "contracts": {
+        "BatcherAccountProxyFactory": "0x0100000002935Dce071f4AFA607b961575672b4C",
+        "BatcherAccountProxy": "0xA667BCF6BA8eA997397Fa15317C38F8734CE8bFB",
+        "AddressSetRegistry": "0x989C9Bc33F202c6A3d4ba71C20C33e5f29511709",
+        "SwapFacet": "0xc5A65BBB83eC190426aC3Db02D8991D0C7346240"
+      },
+      "latestFinalizedVersion": 1,
+      "versions": {
+        "1": {
+          "facets": {
+            "SwapFacet": {
+              "address": "0xc5A65BBB83eC190426aC3Db02D8991D0C7346240",
+              "functions": [
+                "swap_call((address,address,uint256,address,address,bool,uint256,uint256,bytes))"
+              ]
+            }
+          },
+          "initializer": null
+        }
+      }
+    },
+    "42161": {
+      "network": "arbitrum",
+      "explorer": "https://arbiscan.io",
+      "wrappedNative": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+      "contracts": {
+        "BatcherAccountProxyFactory": "0x0100000002935Dce071f4AFA607b961575672b4C",
+        "BatcherAccountProxy": "0xA667BCF6BA8eA997397Fa15317C38F8734CE8bFB",
+        "AddressSetRegistry": "0xfb98d32fb29e7D7c058197A8Df82A955fb5871B9",
+        "SwapFacet": "0x989C9Bc33F202c6A3d4ba71C20C33e5f29511709"
+      },
+      "latestFinalizedVersion": 1,
+      "versions": {
+        "1": {
+          "facets": {
+            "SwapFacet": {
+              "address": "0x989C9Bc33F202c6A3d4ba71C20C33e5f29511709",
+              "functions": [
+                "swap_call((address,address,uint256,address,address,bool,uint256,uint256,bytes))"
+              ]
+            }
+          },
+          "initializer": null
+        }
+      }
+    },
+    "43114": {
+      "network": "avalanche",
+      "explorer": "https://snowscan.xyz",
+      "wrappedNative": "0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7",
+      "contracts": {
+        "BatcherAccountProxyFactory": "0x0100000002935Dce071f4AFA607b961575672b4C",
+        "BatcherAccountProxy": "0xA667BCF6BA8eA997397Fa15317C38F8734CE8bFB",
+        "AddressSetRegistry": "0xA10bC53f84F5e359a928cACAed27D3D09DF1ADbD",
+        "SwapFacet": "0xC75fbF81cc29d71589bE9D3c70E6a4eDC41Ac6BC"
+      },
+      "latestFinalizedVersion": 1,
+      "versions": {
+        "1": {
+          "facets": {
+            "SwapFacet": {
+              "address": "0xC75fbF81cc29d71589bE9D3c70E6a4eDC41Ac6BC",
+              "functions": [
+                "swap_call((address,address,uint256,address,address,bool,uint256,uint256,bytes))"
+              ]
+            }
+          },
+          "initializer": null
+        }
+      }
+    },
+    "80094": {
+      "network": "berachain",
+      "explorer": "https://berascan.com",
+      "wrappedNative": "0x6969696969696969696969696969696969696969",
+      "contracts": {
+        "BatcherAccountProxyFactory": "0x0100000002935Dce071f4AFA607b961575672b4C",
+        "BatcherAccountProxy": "0xA667BCF6BA8eA997397Fa15317C38F8734CE8bFB",
+        "AddressSetRegistry": "0xB6d0D9d243246f8240b4e607074fF224CD25Ca40",
+        "SwapFacet": "0x8857ED0A3a71F1e1b9c8712756CD72f626663747"
+      },
+      "latestFinalizedVersion": 1,
+      "versions": {
+        "1": {
+          "facets": {
+            "SwapFacet": {
+              "address": "0x8857ED0A3a71F1e1b9c8712756CD72f626663747",
+              "functions": [
+                "swap_call((address,address,uint256,address,address,bool,uint256,uint256,bytes))"
+              ]
+            }
+          },
+          "initializer": null
+        }
+      }
+    }
+  }
+}

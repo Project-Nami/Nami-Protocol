@@ -1,0 +1,18 @@
+# Normalize line endings: forge fmt always writes LF, so keep working-tree
+# files LF too, prevents phantom "modified" files on checkouts. Solidity
+# sources must stay byte identical to the deployed build, whose metadata
+# hash covers their content.
+* text=auto
+
+*.sol text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.txt text eol=lf
+
+*.png binary
+*.jpg binary
+*.svg binary
+*.pdf binary
